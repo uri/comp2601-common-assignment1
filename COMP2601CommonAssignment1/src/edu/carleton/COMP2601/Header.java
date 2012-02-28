@@ -22,9 +22,9 @@ public class Header implements Serializable {
 	}
 	
 	Header(String s) {
-		this.source = s;
-		this.dest = s;
-		this.setType(TEST);
+		this.source = "";
+		this.dest = "";
+		this.type = s;
 		this.id = 0;
 		this.sequence = 0;
 	}
